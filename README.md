@@ -11,6 +11,6 @@ Given: July 8th, 2019
 
 ![Alt text](Screenshots/2.2.png?raw=true "Middle Activity")
 
-![Alt text](Screenshots/2.3.png?raw=true "Final Activity")
+![Alt text](Screenshots/2.3.png?raw=true "Last Activity")
 
 
