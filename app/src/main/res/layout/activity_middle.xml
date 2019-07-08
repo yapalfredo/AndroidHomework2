@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiddleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page: 2"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/txtViewMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Middle Activity"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewMiddle"
+            android:layout_centerHorizontal="true"
+            >
+
+            <Button
+                android:id="@+id/btnMiddlePrev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:onClick="buttonOnClicked"
+                />
+
+            <Button
+                android:id="@+id/btnMiddleNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_toRightOf="@id/btnMiddlePrev"
+                android:onClick="buttonOnClicked"
+                />
+        </RelativeLayout>
+
+
+
+
+</RelativeLayout>
